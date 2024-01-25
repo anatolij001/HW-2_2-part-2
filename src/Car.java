@@ -1,4 +1,4 @@
-public class Car extends WheeledTransport{
+public class Car extends WheeledTransport {
     public Car(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
@@ -9,5 +9,6 @@ public class Car extends WheeledTransport{
     }
 
     @Override
-    public void checkTrailer() {}
+    public void checkTrailer() {
+    }
 }

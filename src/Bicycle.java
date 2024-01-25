@@ -1,11 +1,13 @@
-public class Bicycle extends WheeledTransport{
+public class Bicycle extends WheeledTransport {
     public Bicycle(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
 
     @Override
-    public void checkEngine() {}
+    public void checkEngine() {
+    }
 
     @Override
-    public void checkTrailer() {}
+    public void checkTrailer() {
+    }
 }
